@@ -1,0 +1,22 @@
+body
+{
+    background-color: palevioletred;
+}
+h1
+{
+    text-align: center;
+    font-size: large;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkmagenta;
+    background-color: aquamarine;
+    text-align: justify;
+}
+h4
+{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}

@@ -1,0 +1,28 @@
+Tags:
+    There are 2 types of tags.
+    1. Paired tags.
+        Contains Start tag and end tag.
+        eg: 
+            <html></html>,<p></p>
+    2. Unpaired tags.
+        Contains only Start tag.
+        There are only three Unpaired tags.
+            1. <img>
+            2. <br>
+            3. <hr>
+
+
+
+CSS:
+    types:
+        1. inline
+        2. internal
+        3. external
+
+1. inline Css:
+    Wrinten to the line we want to style.
+2. internal css:
+    Writen in head with in tag names we want to style.
+3. external css:
+    Writen sepretly in other file.
+

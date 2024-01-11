@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Tanslate and Rotate</title>
+        <style>
+            div
+            {
+                width: 300px;
+                height: 100px;
+                background-color: yellow;
+                border: 1px solid black;
+                transform: translate(500px,100px);
+            }
+            div#mydiv
+            {
+                background-color: blue;
+                transform: rotate(-45deg);
+            }
+            div#x
+            {
+                transform: rotateX(120deg);
+            }
+            div#y
+            {
+                transform: rotateY(120deg);
+            }
+            div#z
+            {
+                transform: rotateZ(90deg);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The translate() Method</h1>
+        <div>
+            The Div element is moved 500 pixels to the right and 100 pixels down rom its current position.
+        </div>
+        <br><br>
+        <h1>The rotate() Method</h1>
+        <div id="mydiv">
+            The Div element is rotated clockwise when we give degrees as positive and vice-versa.
+        </div>
+        <br><br>
+        <div id="x">
+            The Div element is rotated clockwise with respect to x-axis when we give degrees as positive and vice-versa.
+        </div>
+        <br><br>
+        <div id="y">
+            The Div element is rotated clockwise with respect to y-axis when we give degrees as positive and vice-versa.
+        </div>
+        <br><br>
+        <div id="z">
+            The Div element is rotated clockwise with respect to z-axis when we give degrees as positive and vice-versa.
+        </div>
+    </body>
+</html>

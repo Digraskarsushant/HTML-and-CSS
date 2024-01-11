@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Transition</title>
+        <style>
+            div
+            {
+                width: 100px;
+                height: 100px;
+                background: red;
+                transition: all 10s;
+            }
+            div:hover
+            {
+                width: 300px;
+                height: 300px;
+            }
+            div#a
+            {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: exam;
+                animation-duration: 10s;
+            }
+            @keyframes exam
+            {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Transition Property</h1>
+        <p>Hover over the div element below to see the transition property.</p>
+        <div></div>
+        <br><br><br>
+        <h1>The Animation Property</h1>
+        <div id="a"></div>
+        <p>When an animation is finished it goes back to its original style.</p>
+        
+    </body>
+</html>
